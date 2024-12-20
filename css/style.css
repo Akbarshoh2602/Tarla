@@ -8,6 +8,7 @@
 
 html {
   scroll-behavior: smooth;
+  /* overflow:hidden; */
 }
 
 .container {
@@ -352,6 +353,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px 0;
 }
 
 .more__parent {
@@ -369,17 +371,17 @@ html {
   gap: 80px;
 }
 
-.more__text{
+.more__text {
   width: 400px;
   height: 400px;
   padding: 40px 10px;
 }
 
-.more__text h6{
+.more__text h6 {
   font-weight: 400;
 }
 
-.more__text p{
+.more__text p {
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -399,4 +401,103 @@ html {
     transform: scale(1.1);
     transition: 0.5s;
   }
+}
+
+/* more section finished */
+
+/* bakes section started */
+
+.bakes {
+  background-color: #fff;
+  /* overflow: hidden; */
+}
+
+.bakes__img {
+  text-align: center;
+  font-size: 4rem;
+  height: 541px;
+  margin-top: 100px;
+}
+
+.bakes__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.bakes__imgages img {
+  width: 200px;
+  height: 200px;
+}
+
+/* bakes section finished */
+/* community section started */
+
+.community {
+  background-color: rgb(238, 221, 216);
+}
+
+.community__wraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.community__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.community__text h6 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.community__text p {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.community__text button {
+  margin-top: 20px;
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 10px 40px;
+  background: transparent;
+  transition: all 0.3s ease;
+  width: 400px;
+
+  &:hover {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+}
+
+/* community section finished */
+/* footer section started */
+
+.footer {
+  background-color: rgb(238, 221, 216);
+}
+
+.footer__wrapper{
+  padding: 40px;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+
+.footer__list a {
+  color: black;
 }
